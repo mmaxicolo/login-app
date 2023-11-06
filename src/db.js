@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+
+
 export const db = async () => {
     try {
         mongoose.connect('mongodb://localhost/loginApp');
