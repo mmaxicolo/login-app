@@ -4,9 +4,9 @@ import { getIngredientes, createIngrediente } from "../controllers/ingredientes.
 
 const router = Router();
 
-router.get('/getIngredientes', authRequired , getIngredientes);
+router.get('/getIngrediente', authRequired , getIngredientes);
 router.post('/createIngrediente', authRequired, createIngrediente);
-router.post('/updateIngrediente', );
+router.post('/updateIngrediente/:id', );
 router.post('/deleteIngrediente', );
 
 export default router;
