@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 
 import authRouter from "./routes/auth.routes.js";
 import ingredientesRouter from "./routes/ingredientes.routes.js";
+import productosRouter from "./routes/productos.routes.js";
 
 const app = express();
 
@@ -13,5 +14,6 @@ app.use(cookieParser());
 
 app.use('/api' ,authRouter);
 app.use('/ingredientes',ingredientesRouter);
+app.use('/productos',productosRouter);
 
 export default app;
