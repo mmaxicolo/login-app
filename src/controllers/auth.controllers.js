@@ -6,6 +6,8 @@ export const register = async (req, res) => {
     const { user, mail, password } = req.body;
 
     try {
+        const userFound = await User.findOne({ mail });
+        if(userFound) return res.status(400).json(["mail in use"]);
 
         const passwordHash = await bcrypt.hash(password, 10);
 

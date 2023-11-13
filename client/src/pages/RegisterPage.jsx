@@ -1,11 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import { AiFillCheckCircle } from "react-icons/ai";
-import { registerRequest } from "../api/auth.js";
+
+import { useAuth } from "../context/AuthContext.jsx";
 
 function RegisterPage() {
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
+
+  const { signup, errors, isAuthenticated } = useAuth();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isAuthenticated) navigate("/")
+  },[isAuthenticated]);
 
   const handleFocus = (ev) => {
     ev.target.placeholder = "";
@@ -14,22 +24,37 @@ function RegisterPage() {
   const handleBlur = (ev, originalPlaceholder) => {
     ev.target.placeholder = originalPlaceholder;
   };
+  const handleErrors = (err) => {
+    if (err.length > 0) {
+      return(
+      <div className="error__container">
+        {errors.map((err, i) => (
+          <div className="error__text" key={i}>
+            {err}
+          </div>
+        ))}
+      </div>
+    )
+    }
+  }
 
   return (
-    <form
-      className="form"
-      onSubmit={async (ev) => {
-        ev.preventDefault();
-        const user = {
-          user: name,
-          mail: mail,
-          password: password,
-        };
-        const res = await registerRequest(user);
-        console.log(res);
-      }}
-    >
-      <div className="input__container">
+    <>
+      
+      {handleErrors(errors)}
+      <form
+        className="form"
+        onSubmit={async (ev) => {
+          ev.preventDefault();
+          const user = {
+            user: name,
+            mail: mail,
+            password: password,
+          };
+          signup(user);
+        }}
+      >
+        <div className="input__container">
           <input
             autoComplete="off"
             onFocus={handleFocus}
@@ -41,9 +66,8 @@ function RegisterPage() {
             value={name}
             onChange={(ev) => setName(ev.target.value)}
           />
-          {validationName(name)}
-      </div>
-      <div className="input__container">
+        </div>
+        <div className="input__container">
           <input
             autoComplete="off"
             onFocus={handleFocus}
@@ -55,9 +79,8 @@ function RegisterPage() {
             value={mail}
             onChange={(ev) => setMail(ev.target.value)}
           />
-          {validationMail(mail)}
-      </div>
-      <div className="input__container">
+        </div>
+        <div className="input__container">
           <input
             autoComplete="off"
             onFocus={handleFocus}
@@ -69,38 +92,13 @@ function RegisterPage() {
             value={password}
             onChange={(ev) => setPassword(ev.target.value)}
           />
-          {passwordVerification(password)}
-      </div>
-      <button type="submit" className="btn">
-        Registrarse
-      </button>
-    </form>
+        </div>
+        <button type="submit" className="btn">
+          Registrarse
+        </button>
+      </form>
+    </>
   );
 }
-
-const validationName = (name) => {
-  if (name.length >= 5) {
-    return <AiFillCheckCircle />;
-  }
-};
-
-const validationMail = (mail) => {
-  if (mail.includes("@")) {
-    return <AiFillCheckCircle className="check" />;
-  }
-};
-
-const passwordVerification = (val) => {
-  const containsMayus = val.split("").some((v) => {
-    return v.toUpperCase() === v && v.toLowerCase() !== v;
-  });
-  const containsMinus = val.split("").some((v) => {
-    return v.toLowerCase() === v && v.toUpperCase() !== v;
-  });
-  const minimum = true ? val.length >= 8 : false;
-  if (containsMayus && containsMinus && minimum) {
-    return <AiFillCheckCircle className="check" />;
-  }
-};
 
 export default RegisterPage;

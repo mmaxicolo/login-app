@@ -5,7 +5,7 @@ export const registerSchema = z.object({
         required_error: 'Username is required'
     }),
     mail: z.string({
-        required_error: 'Mail is required'
+        required_error: 'Mail is required',
     }).email({
         message : 'Invalid mail'
     }),

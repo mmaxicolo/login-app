@@ -6,14 +6,14 @@ body{
 }
 #root {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 .form{
     width: 400px;
-    margin: auto;
-    padding: 20px;
+    padding: 2rem;
     background-color: rgb(37, 37, 37);
     border-radius: 10px;
 }
@@ -55,9 +55,12 @@ body{
     background-color: rgb(58, 58, 58);
     color: rgb(216, 216, 216);
 }
-svg{
-    text-align: center;
-    color: rgb(4, 105, 0);
-    width: 1.5rem;
-    height: 1.5rem;
+.error__container{
+    width: 400px;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 2rem;
+}
+.error__text{
+    font-weight: 400;
 }
