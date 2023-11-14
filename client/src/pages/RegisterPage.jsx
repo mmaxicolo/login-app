@@ -38,6 +38,10 @@ function RegisterPage() {
     }
   }
 
+  const verificarCamposVacios = (val) => {
+    return val != "";
+  }
+
   return (
     <>
       
@@ -51,7 +55,9 @@ function RegisterPage() {
             mail: mail,
             password: password,
           };
-          signup(user);
+          if (verificarCamposVacios(user) && verificarCamposVacios(mail) && verificarCamposVacios(password)) {
+            signup(user);
+          }
         }}
       >
         <div className="input__container">
