@@ -14,37 +14,30 @@ function RegisterPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/")
-  },[isAuthenticated]);
+    if (isAuthenticated) navigate("/");
+  }, [isAuthenticated]);
 
   const handleFocus = (ev) => {
     ev.target.placeholder = "";
   };
-
   const handleBlur = (ev, originalPlaceholder) => {
     ev.target.placeholder = originalPlaceholder;
   };
   const handleErrors = (err) => {
     if (err.length > 0) {
-      return(
-      <div className="error__container">
-        {errors.map((err, i) => (
-          <div className="error__text" key={i}>
-            {err}
-          </div>
-        ))}
-      </div>
-    )
+      return (
+        <div className="error__container">
+          {errors.map((err, i) => (
+            <div className="error__text" key={i}>
+              {err}
+            </div>
+          ))}
+        </div>
+      );
     }
-  }
-
-  const verificarCamposVacios = (val) => {
-    return val != "";
-  }
-
+  };
   return (
     <>
-      
       {handleErrors(errors)}
       <form
         className="form"
@@ -55,7 +48,7 @@ function RegisterPage() {
             mail: mail,
             password: password,
           };
-          if (verificarCamposVacios(user) && verificarCamposVacios(mail) && verificarCamposVacios(password)) {
+          if (name != "" && mail != "" && password != "") {
             signup(user);
           }
         }}
@@ -88,9 +81,6 @@ function RegisterPage() {
         </div>
         <div className="input__container">
           <input
-            autoComplete="off"
-            onFocus={handleFocus}
-            onBlur={(ev) => handleBlur(ev, "Password")}
             className="inputs"
             placeholder="Password"
             type="password"
