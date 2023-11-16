@@ -1,8 +1,12 @@
 import { useState } from "react";
 
+import { useAuth } from "../context/AuthContext.jsx";
+
 function LoginPage() {
   const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
+
+  const { login, errors } = useAuth();
 
   const handleFocus = (ev) => {
     ev.target.placeholder = "";
@@ -10,9 +14,23 @@ function LoginPage() {
   const handleBlur = (ev, originalPlaceholder) => {
     ev.target.placeholder = originalPlaceholder;
   };
+  const handleErrors = (err) => {
+    if (err.length > 0) {
+      return (
+        <div className="error__container">
+          {errors.map((err, i) => (
+            <div className="error__text" key={i}>
+              {err}
+            </div>
+          ))}
+        </div>
+      );
+    }
+  };
 
   return (
     <>
+      {handleErrors(errors)}
       <form className="form" onSubmit={async (ev) => {
         ev.preventDefault();
         const user = {
@@ -20,9 +38,10 @@ function LoginPage() {
           password,
         }
         if (mail != "" && password != "") {
-          console.log(user);
+          login(user);
         }
       }}>
+        <h1>Login</h1>
         <div className="input__container">
           <input
             autoComplete="off"
@@ -52,6 +71,9 @@ function LoginPage() {
         <button type="submit" className="btn">
           Ingresar
         </button>
+        <div className="message">
+            <p>Don´t have an account?</p><a href="/register">Sign up</a>
+        </div>
       </form>
     </>
   );

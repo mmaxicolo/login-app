@@ -13,7 +13,7 @@ body{
 }
 .form{
     width: 400px;
-    padding: 2rem;
+    padding: 1rem 2rem;
     background-color: rgb(37, 37, 37);
     border-radius: 10px;
 }
@@ -63,4 +63,28 @@ body{
 }
 .error__text{
     font-weight: 400;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+a{
+    color: dodgerblue;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.message{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
 }

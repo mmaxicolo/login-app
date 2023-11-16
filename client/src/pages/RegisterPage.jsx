@@ -53,6 +53,7 @@ function RegisterPage() {
           }
         }}
       >
+        <h1>Sign up</h1>
         <div className="input__container">
           <input
             autoComplete="off"
@@ -81,6 +82,9 @@ function RegisterPage() {
         </div>
         <div className="input__container">
           <input
+            autoComplete="off"
+            onFocus={handleFocus}
+            onBlur={(ev) => handleBlur(ev, "Password")}
             className="inputs"
             placeholder="Password"
             type="password"
@@ -92,7 +96,11 @@ function RegisterPage() {
         <button type="submit" className="btn">
           Registrarse
         </button>
+        <div className="message">
+            <p>Have an account?</p><a href="/login">Sign in</a>
+        </div>
       </form>
+      
     </>
   );
 }

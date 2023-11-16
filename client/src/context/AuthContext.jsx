@@ -17,6 +17,7 @@ export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [errors, setErrors] = useState([]);
     const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [token, setToken] = useState(null);
     
     const signup = async (user) => {
         try {
@@ -30,15 +31,28 @@ export const AuthProvider = ({ children }) => {
     }
     const login = async (user) => {
         try {
-            const res = await loginRequest;
+            const res = await loginRequest(user);
+            console.log(res);
+            setUser(res.data);
+            setIsAuthenticated(true);
+            console.log(res.headers["set-cookie"]);
         } catch (error) {
-            
+            setErrors(error.response.data);
         }
     }
+    useEffect(() => {
+        if(errors.length > 0) {
+            const timer = setTimeout(() => {
+                setErrors([])
+            }, 5000)
+            return () => clearTimeout(timer);
+        }
+    },[errors])
 
     return (
         <AuthContext.Provider value={{
             signup,
+            login,
             user,
             errors,
             isAuthenticated,
