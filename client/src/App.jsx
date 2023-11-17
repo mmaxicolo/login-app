@@ -6,13 +6,14 @@ import "./App.css";
 
 import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<h1>home</h1>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/ingredientes" element={<h1>hola mundo</h1>} />

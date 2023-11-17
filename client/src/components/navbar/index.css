@@ -1,0 +1,17 @@
+
+.container__navbar{
+    width: 100%;
+    background-color: rgb(37, 33, 33);
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+}
+
+.navbar{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+}
+.items__navbar{
+    display: flex;
+}
