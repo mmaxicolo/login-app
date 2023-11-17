@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 import { useAuth } from "../context/AuthContext.jsx";
 
@@ -7,12 +6,9 @@ function LoginPage() {
   const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
 
-  const { login, errors, isAuthenticated } = useAuth();
-  const navigate = useNavigate();
+  const { login, errors } = useAuth();
 
-  useEffect(() => {
-    if (isAuthenticated) navigate("/");
-  }, [isAuthenticated]);
+
 
   const handleFocus = (ev) => {
     ev.target.placeholder = "";

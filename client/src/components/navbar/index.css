@@ -2,16 +2,46 @@
 .container__navbar{
     width: 100%;
     background-color: rgb(37, 33, 33);
-    padding: 1rem 2rem;
     position: fixed;
     top: 0;
+    padding: 2rem 3rem;
 }
 
 .navbar{
-    display: grid;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 .items__navbar{
+    list-style: none;
     display: flex;
+    gap: 3rem;
+    justify-items: end;
+
 }
+.items__navbar li {
+    margin: 0;
+}
+.items__navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.6rem 1rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    transition: all 0.2s ease;
+}
+.items__navbar a:hover{
+    background-color: rgb(146, 157, 165);
+    color: aliceblue;
+}
+span a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.active  {
+    background-color: #000000 !important;
+    color: aliceblue !important;
+  }

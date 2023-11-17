@@ -1,9 +1,7 @@
-import Navbar from "../components/navbar/Index"
+import Navbar from "../components/navbar/Index";
 
 function Home() {
-  return (
-    <Navbar/>
-  )
+  return <Navbar />;
 }
 
-export default Home
+export default Home;

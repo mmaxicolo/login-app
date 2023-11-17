@@ -1,24 +1,26 @@
 import "./index.css";
 
-function Navbar() {
+function Navbar({ isAuthenticated }) {
   return (
     <div className="container__navbar">
-        <nav className="navbar">
-            <span>React Login App</span>
-            <ul className="items__navbar">
-                <li>
-                    <a href="">Sing Up</a>
-                </li>
-                <li>
-                    <a href="">Sign In</a>
-                </li>
-                <li>
-                    <a href="">Log Out</a>
-                </li>
-            </ul>
-        </nav>
+      <nav className="navbar">
+        <span>
+          <a href="/">React Login App</a>
+        </span>
+        <ul className="items__navbar">
+          <li>
+            <a href="/register">Sing Up</a>
+          </li>
+          <li>
+            <a href="/login">Sign In</a>
+          </li>
+          <li>
+            <a href="/logout">Log Out</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  )
+  );
 }
 
 export default Navbar;

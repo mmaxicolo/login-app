@@ -1,6 +1,8 @@
 import { User } from '../models/user.models.js';
 import bcrypt from 'bcryptjs';
 import { createAccesToken } from "../libs/jwt.js";
+import jwt from 'jsonwebtoken';
+import { TOKEN_SECRET } from '../config.js';
 
 export const register = async (req, res) => {
     const { user, mail, password } = req.body;
@@ -65,4 +67,23 @@ export const logout = (req, res) => {
         expire : new Date(0)
     });
     return res.sendStatus(200);
+}
+
+export const verify = async (req, res) => {
+    const { token } = req.cookie;
+
+    if(!token) return res.status(400).json(["token not found"]);
+
+    jwt.verify(token, TOKEN_SECRET, async (err, user) => {
+        if(err) return res.status(400).json(["token invalid"]);
+
+        const userFound = await User.findById(user.id);
+        if(!userFound) return res.status(400).json(["user not founded"]);
+
+        res.json({
+            id : userFound._id,
+            user : userFound.user,
+            mail: userFound.mail
+        });
+    })
 }
