@@ -1,11 +1,9 @@
 import { createContext, useContext, useState, useEffect } from "react";
-
-import { registerRequest, loginRequest, verrifyToken } from "../api/auth.js";
-
 import Cookies from "js-cookie";
 
-export const AuthContext = createContext();
+import { registerRequest, loginRequest, logoutRequest, verifyToken } from "../api/auth.js";
 
+export const AuthContext = createContext();
 export const useAuth = () => {
   const context = useContext(AuthContext);
 
@@ -19,6 +17,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [errors, setErrors] = useState([]);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const signup = async (user) => {
     try {
@@ -36,11 +35,15 @@ export const AuthProvider = ({ children }) => {
       console.log(res);
       setUser(res.data);
       setIsAuthenticated(true);
-      console.log(res.headers["set-cookie"]);
     } catch (error) {
       setErrors(error.response.data);
     }
   };
+  const logout = async () => {
+    await logoutRequest();
+    setUser(null);
+    setIsAuthenticated(false);
+  }
   useEffect(() => {
     if (errors.length > 0) {
       const timer = setTimeout(() => {
@@ -49,28 +52,39 @@ export const AuthProvider = ({ children }) => {
       return () => clearTimeout(timer);
     }
   }, [errors]);
-
   useEffect(() => {
-    const cookies = Cookies.get();
-    if (cookies.token) {
+    const verify = async () => {
       try {
-        const res = verrifyToken();
-        if (!res) setIsAuthenticated(false);
-
+        const res = await verifyToken();
+        if (!res) {
+          setIsAuthenticated(false);
+          setLoading(false);
+          return;
+        }
+        setUser(res.data);
         setIsAuthenticated(true);
-        setUser(res);
+        setLoading(false);
       } catch (error) {
         setIsAuthenticated(false);
-        setUser(null);
+        setLoading(false);
       }
+    };
+    const cookie = Cookies.get();
+    if (cookie.token) {
+      verify();
+      return;
     }
+    setLoading(false);
+    setIsAuthenticated(false);
+    setUser(null);
   }, []);
-
   return (
     <AuthContext.Provider
       value={{
         signup,
         login,
+        logout,
+        loading,
         user,
         errors,
         isAuthenticated,

@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { AiFillCheckCircle } from "react-icons/ai";
-
 import { useAuth } from "../context/AuthContext.jsx";
 
 function RegisterPage() {

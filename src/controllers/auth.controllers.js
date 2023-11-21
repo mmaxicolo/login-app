@@ -21,7 +21,10 @@ export const register = async (req, res) => {
 
         const nuevoUser = await newUser.save();
         const token = await createAccesToken({id: nuevoUser._id});
-        res.cookie('token', token);
+        res.cookie('token', token,{
+            sameSite: 'none',
+            secure: true
+        });
 
         res.json({
             id : nuevoUser._id,
@@ -49,7 +52,10 @@ export const login = async (req, res) => {
         
         const token = await createAccesToken({id: userFound._id});
 
-        res.cookie('token', token);
+        res.cookie('token', token,{
+            sameSite: 'none',
+            secure: true
+        });
         res.json({
             id : userFound._id,
             user : userFound.user,
@@ -63,14 +69,12 @@ export const login = async (req, res) => {
 }
 
 export const logout = (req, res) => {
-    res.cookie('token', '', {
-        expire : new Date(0)
-    });
+    res.clearCookie('token');
     return res.sendStatus(200);
 }
 
 export const verify = async (req, res) => {
-    const { token } = req.cookie;
+    const { token } = req.cookies;
 
     if(!token) return res.status(400).json(["token not found"]);
 

@@ -11,11 +11,26 @@ body{
     font-weight: bold;
 }
 #root {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.presentation{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    padding: 4rem;
+}
+.presentation h1{
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.presentation p {
+    padding: 1rem;
 }
 .form{
     width: 400px;
@@ -56,6 +71,30 @@ body{
     text-align: center;
     cursor: pointer;
     transition: all 0.7s ease;
+}
+.container-btn{
+    width: 30%;
+    display: flex;
+}
+.btn-page {
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    padding: 0.6rem 1rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+
+}
+.btn-page:hover{
+    background-color: rgb(146, 157, 165);
+    color: aliceblue;
 }
 .btn:hover{
     background-color: rgb(58, 58, 58);
