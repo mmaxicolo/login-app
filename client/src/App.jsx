@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import ProtectedRoute from "./ProtectedRoute";
 import Logout from "./pages/Logout";
 import IngredientesPage from "./pages/IngredientesPage";
+import IngredientesFormPage from "./pages/IngredientesFormPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="logout" element={<Logout />}></Route>
             <Route element={<ProtectedRoute />}>
               <Route path="/ingredientes" element={<IngredientesPage />} />
+              <Route path="/createIngrediente" element={<IngredientesFormPage />} />
             </Route>
           </Routes>
         </BrowserRouter>

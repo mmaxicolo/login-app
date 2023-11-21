@@ -1,6 +1,9 @@
 import { createContext, useContext, useState } from "react";
 
-import { getIngredientesRequest } from "../api/Ingredientes";
+import {
+  createIngredientesRequest,
+  getIngredientesRequest,
+} from "../api/Ingredientes";
 
 export const SistemaContext = createContext();
 export const useSistema = () => {
@@ -19,8 +22,14 @@ export const SistemaProvider = ({ children }) => {
     const res = await getIngredientesRequest();
     console.log(res);
   };
+  const createIngrediente = async (ingrediente) => {
+    const res = await createIngredientesRequest(ingrediente);
+    console.log(res);
+  };
   return (
-    <SistemaContext.Provider value={{ getIngredientes }}>
+    <SistemaContext.Provider
+      value={{ getIngredientes, createIngrediente }}
+    >
       {children}
     </SistemaContext.Provider>
   );

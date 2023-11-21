@@ -5,12 +5,12 @@ export const getIngredientes = async (req, res) => {
     res.json({ingredientes: ingredientes.ingrediente})
 }
 export const createIngrediente = async (req, res) => {
-    const {nombre, costo, unidad, cantidad} = req.body
+    const {name, cost, unit, amount} = req.body
     const newIngrediente = new Ingrediente({
-        nombre,
-        costo,
-        unidad,
-        cantidad,
+        name,
+        cost,
+        unit,
+        amount,
     });
 
     const userCreated = await User.updateOne({_id : req.user.id}, {$push : {ingrediente: newIngrediente}});

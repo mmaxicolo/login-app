@@ -98,7 +98,6 @@ function RegisterPage() {
             <p>Have an account?</p><a href="/login">Sign in</a>
         </div>
       </form>
-      
     </>
   );
 }

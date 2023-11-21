@@ -6,5 +6,6 @@ export const apiInstance = axios.create({
 })
 export const ingredientesInstance = axios.create({
     baseURL: "http://localhost:3000/ingredientes",
+    withCredentials: true,
 });
 
