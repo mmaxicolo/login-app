@@ -35,7 +35,7 @@ function RegisterPage() {
     }
   };
   return (
-    <>
+    <div className="container">
       {handleErrors(errors)}
       <form
         className="form"
@@ -98,7 +98,7 @@ function RegisterPage() {
             <p>Have an account?</p><a href="/login">Sign in</a>
         </div>
       </form>
-    </>
+    </div>
   );
 }
 

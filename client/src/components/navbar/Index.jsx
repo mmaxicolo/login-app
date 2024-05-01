@@ -1,7 +1,9 @@
 import "./index.css";
+import { useAuth } from "../../context/AuthContext.jsx"
 
 
-function Navbar({auth}) {
+function Navbar() {
+  const { isAuthenticated } = useAuth();
 
   return (
     <div className="container__navbar">
@@ -10,7 +12,7 @@ function Navbar({auth}) {
           <a href="/">React Login App</a>
         </span>
         <ul className="items__navbar">
-          {!auth ? (
+          {!isAuthenticated ? (
             <>
               <li>
                 <a href="/register">Sing Up</a>

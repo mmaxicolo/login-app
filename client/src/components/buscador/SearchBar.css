@@ -1,0 +1,23 @@
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-box input {
+    margin: 0; /* Quitamos el margin que puede haber por defecto */
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    padding: 0.35rem;
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+    border-radius: 0.4rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.603);
+    color: white;
+    font-weight: 900;
+    font-size: 0.8rem;
+  }
+  .search-box input::placeholder{
+    color: #ffffff;
+  }
+  

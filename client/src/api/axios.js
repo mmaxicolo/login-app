@@ -9,3 +9,8 @@ export const ingredientesInstance = axios.create({
     withCredentials: true,
 });
 
+export const productosInstance = axios.create({
+    baseURL: "http://localhost:3000/productos",
+    withCredentials: true,
+});
+

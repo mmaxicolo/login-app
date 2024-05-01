@@ -36,7 +36,7 @@ function LoginPage() {
   };
 
   return (
-    <>
+    <div className="container">
       {handleErrors(errors)}
       <form className="form" onSubmit={async (ev) => {
         ev.preventDefault();
@@ -82,7 +82,7 @@ function LoginPage() {
             <p>Don´t have an account?</p><a href="/register">Sign up</a>
         </div>
       </form>
-    </>
+    </div >
   );
 }
 

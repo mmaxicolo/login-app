@@ -1,26 +1,26 @@
-const Unidades = [
+export const Unidades = [
     "kg",
     "gr",
     "l",
     "ml",
     "unidad"
 ]
-class Ingrediente {
-    constructor(id, nombre, costo, unidad, cantidad) {
+export class Ingrediente {
+    constructor(id, name, cost, unidad, cantidad) {
         this.id = id;
-        this.nombre = nombre;
-        this.costo = costo;
+        this.name = name;
+        this.cost = cost;
         this.unidad = unidad;
         this.cantidad = cantidad;
     }
     get getId() {
         return this.id;
     }
-    get getNombre() {
-        return this.nombre;
+    get getname() {
+        return this.name;
     }
-    get getCosto() {
-        return this.costo;
+    get getcost() {
+        return this.cost;
     }
     get getUnidad() {
         return this.unidad;
@@ -38,14 +38,14 @@ class Ingrediente {
     /**
      * @param {any} x
      */
-    set setNombre(x) {
-        this.nombre = x;
+    set setname(x) {
+        this.name = x;
     }
     /**
      * @param {any} x
      */
-    set setCosto(x) {
-        this.costo = x;
+    set setcost(x) {
+        this.cost = x;
     }
     /**
      * @param {any} x
@@ -59,26 +59,26 @@ class Ingrediente {
     set setCantidad(x) {
         this.cantidad = x;
     }
-    CostoCantidad(cantidad) {
-        return cantidad * this.costo / this.cantidad;
+    costCantidad(cantidad) {
+        return cantidad * this.cost / this.cantidad;
     }
 }
-class Producto {
-    constructor(id, nombre, margen, packaging, ingredientes, agregado, cantidadReceta) {
+export class Producto {
+    constructor(id, name, margen, packaging,  aggregate, amountRecipe, ingredientes) {
         this.id = id;
-        this.nombre = nombre;
+        this.name = name;
         this.margen = margen;
         this.packaging = packaging;
+        this.aggregate = aggregate;
+        this.amountRecipe = amountRecipe;
         this.ingredientes = ingredientes;
-        this.agregado = agregado;
-        this.cantidadReceta = cantidadReceta;
-        this.costo = this.calcularCosto();
+        this.cost = this.calcularcost();
     }
     get getId() {
         return this.id;
     }
-    get getNombre() {
-        return this.nombre;
+    get getname() {
+        return this.name;
     }
     get getMargen() {
         return this.margen;
@@ -89,14 +89,14 @@ class Producto {
     get getIngredientes() {
         return this.ingredientes;
     }
-    get getCosto() {
-        return this.costo;
+    get getcost() {
+        return this.cost;
     }
-    get getAgregado() {
-        return this.agregado;
+    get getaggregate() {
+        return this.aggregate;
     }
-    get getCantidadReceta() {
-        return this.cantidadReceta;
+    get getamountRecipe() {
+        return this.amountRecipe;
     }
     /**
      * @param {any} x
@@ -107,8 +107,8 @@ class Producto {
     /**
      * @param {any} x
      */
-    set setNombre(x) {
-        this.nombre = x;
+    set setname(x) {
+        this.name = x;
     }
     /**
      * @param {any} x
@@ -131,41 +131,41 @@ class Producto {
     /**
      * @param {any} x
      */
-    set setCosto(x) {
-        this.costo = x;
+    set setcost(x) {
+        this.cost = x;
     }
     /**
      * @param {any} x
      */
-    set setAgregado(x) {
-        this.agregado = x;
+    set setaggregate(x) {
+        this.aggregate = x;
     }
     /**
      * @param {any} x
      */
-    set setCantidadReceta(x) {
-        this.cantidadReceta = x;
+    set setamountRecipe(x) {
+        this.amountRecipe = x;
     }
-    calcularCosto() {
-        let costoTotal = this.calcularCostoUnidad();
-        this.costo = ((costoTotal + this.packaging) * ((this.agregado / 100) + 1)) * ((this.margen / 100) + 1);
-        return this.costo;
+    calcularcost() {
+        let costTotal = this.calcularcostUnidad();
+        this.cost = ((costTotal + this.packaging) * ((this.aggregate / 100) + 1)) * ((this.margen / 100) + 1);
+        return this.cost;
     }
-    calcularCostoIngredientes() { 
-        let costoTotal = 0;
+    calcularcostIngredientes() { 
+        let costTotal = 0;
         if (this.ingredientes != null) {
             this.ingredientes.forEach(element => {
-                costoTotal += element[0].CostoCantidad(element[1]);
+                costTotal += element.ingrediente.costCantidad(element.amount);
             });
         }
-        return costoTotal;
+        return costTotal;
     }
-    calcularCostoUnidad() { 
-        let costoTotal = this.calcularCostoIngredientes();
-        if (this.cantidadReceta == null) {
-            this.setCantidadReceta = 1;
+    calcularcostUnidad() { 
+        let costTotal = this.calcularcostIngredientes();
+        if (this.amountRecipe == null) {
+            this.setamountRecipe = 1;
         }
-        return costoTotal/this.cantidadReceta;
+        return costTotal/this.amountRecipe;
     }
     buscarIngredientes(buscado) {
         let encontrados = {
@@ -173,7 +173,7 @@ class Producto {
         };
         this.ingredientes.find(ingredient => {
             let cont = 0;
-            let n1 = ingredient[0].getNombre.toLowerCase();
+            let n1 = ingredient[0].getname.toLowerCase();
             buscado = buscado.toLowerCase();
             for (let i = 0; i < buscado.length; i++) {
                 if (n1[i] === buscado[i]) {
@@ -187,7 +187,7 @@ class Producto {
         return encontrados;
     }
 }
-class Sistema {
+export class Sistema {
     constructor(productos, ingredientes) {
         this.productos = productos;
         this.ingredientes = ingredientes;
@@ -215,7 +215,7 @@ class Sistema {
         let encontrados = [];
         this.ingredientes.find(ingredient => {
             let cont = 0;
-            let n1 = ingredient.getNombre.toLowerCase();
+            let n1 = ingredient.getname.toLowerCase();
             buscado = buscado.toLowerCase();
             for (let i = 0; i < buscado.length; i++) {
                 if (n1[i] === buscado[i]) {
@@ -232,7 +232,7 @@ class Sistema {
         let encontrados = [];
         this.productos.find(producto => {
             let cont = 0;
-            let n1 = producto.getNombre.toLowerCase();
+            let n1 = producto.getname.toLowerCase();
             buscado = buscado.toLowerCase();
             for (let i = 0; i <= buscado.length; i++) {
                 if (n1[i] === buscado[i]) {
@@ -246,37 +246,32 @@ class Sistema {
         return encontrados;
     }
     verificarIngrediente(ingrediente) {
-        return(this.verificarNombreIngrediente(ingrediente) && this.verificarNumerosIngrediente(ingrediente));
+        return(this.verificarnameIngrediente(ingrediente) && this.verificarNumerosIngrediente(ingrediente));
     }
-    verificarNombreIngrediente(ingrediente) {
+    verificarnameIngrediente(ingrediente) {
         return this.ingredientes.some(currentIngrediente => {
-            return(currentIngrediente.getNombre == ingrediente.getNombre);
+            return(currentIngrediente.getname == ingrediente.getname);
         });
     }
     verificarNumerosIngrediente(ingrediente) {
-        return(typeof ingrediente.getCosto === "number" && typeof ingrediente.getCantidad === "number")
+        return(typeof ingrediente.getcost === "number" && typeof ingrediente.getCantidad === "number")
     }
     agregaringrediente(ingrediente) {
         this.ingredientes.push(ingrediente);
     }
-    verificarNombreProducto(producto) {
+    verificarnameProducto(producto) {
         return this.productos.some(currentProducto => {
-            return(currentProducto.getNombre === producto.getNombre);
+            return(currentProducto.getname === producto.getname);
         });
     }
     verificarNumerosProductos(producto) {
-        return(typeof producto.getPackging === "number" && typeof producto.getMargen === "number" && typeof producto.getAgregado === "number" && typeof producto.getCantidadReceta === "number");
+        return(typeof producto.getPackging === "number" && typeof producto.getMargen === "number" && typeof producto.getaggregate === "number" && typeof producto.getamountRecipe === "number");
     }
     verificarProducto(producto) {
-        return this.verificarNumerosProductos(producto) && this.verificarNombreProducto(producto);
+        return this.verificarNumerosProductos(producto) && this.verificarnameProducto(producto);
     }
     agregarProducto(producto) {
         this.productos.push(producto);
     }
 }
-module.exports = {
-    Unidades,
-    Sistema,
-    Ingrediente,
-    Producto
-}
+
