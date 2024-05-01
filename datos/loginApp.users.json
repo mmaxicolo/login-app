@@ -1,0 +1,2892 @@
+[{
+  "_id": {
+    "$oid": "6558dff6071c3bb9937ee909"
+  },
+  "user": "maximo",
+  "mail": "maximo@gmail.com",
+  "password": "$2a$10$uXsS5cX5Dptxx4G1oFxYO.CXAk6GXsEWT2Bwi6Yze0O93qWkO4Jbi",
+  "ingrediente": [
+    {
+      "name": "aceite",
+      "cost": 600,
+      "unit": "ml",
+      "amount": 900,
+      "_id": {
+        "$oid": "65a058ff494f4c737d0a322a"
+      }
+    },
+    {
+      "name": "AGUILA",
+      "cost": 4650,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05920494f4c737d0a3233"
+      }
+    },
+    {
+      "name": "AJI ROJO",
+      "cost": 500,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05934494f4c737d0a3240"
+      }
+    },
+    {
+      "name": "AJI VERDE",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a0594e494f4c737d0a324a"
+      }
+    },
+    {
+      "name": "AJO",
+      "cost": 200,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05968494f4c737d0a3256"
+      }
+    },
+    {
+      "name": "ALBAHACA",
+      "cost": 300,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05977494f4c737d0a3264"
+      }
+    },
+    {
+      "name": "ALMENDRAS",
+      "cost": 1000,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a05988494f4c737d0a3273"
+      }
+    },
+    {
+      "name": "ALMIBAR",
+      "cost": 800,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05995494f4c737d0a3285"
+      }
+    },
+    {
+      "name": "ALPINO",
+      "cost": 3100,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a059a7494f4c737d0a3299"
+      }
+    },
+    {
+      "name": "ANIZ ESTRELLADO",
+      "cost": 600,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a059c3494f4c737d0a32af"
+      }
+    },
+    {
+      "name": "ARANDANOS",
+      "cost": 250,
+      "unit": "GR",
+      "amount": 140,
+      "_id": {
+        "$oid": "65a059d1494f4c737d0a32c7"
+      }
+    },
+    {
+      "name": "AVELLANAS",
+      "cost": 1200,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a059f7494f4c737d0a32e1"
+      }
+    },
+    {
+      "name": "AVENA",
+      "cost": 1600,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05a05494f4c737d0a32f0"
+      }
+    },
+    {
+      "name": "AZAHAR FLEIBOR",
+      "cost": 350,
+      "unit": "ml",
+      "amount": 30,
+      "_id": {
+        "$oid": "65a05a1f494f4c737d0a3300"
+      }
+    },
+    {
+      "name": "AZUCAR",
+      "cost": 850,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05a87494f4c737d0a33a7"
+      }
+    },
+    {
+      "name": "AZUCAR IMPALPABLE",
+      "cost": 2200,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05a8f494f4c737d0a33b9"
+      }
+    },
+    {
+      "name": "AZUCAR NEGRA",
+      "cost": 1250,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a05a9e494f4c737d0a33cc"
+      }
+    },
+    {
+      "name": "AZUCAR RUBIA",
+      "cost": 800,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a05aa9494f4c737d0a33e0"
+      }
+    },
+    {
+      "name": "BAGUETTE",
+      "cost": 300,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05ae4494f4c737d0a3408"
+      }
+    },
+    {
+      "name": "BALLINA",
+      "cost": 2350,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05af1494f4c737d0a341e"
+      }
+    },
+    {
+      "name": "BALLINA COLOR",
+      "cost": 1360,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a05aff494f4c737d0a3435"
+      }
+    },
+    {
+      "name": "BANANAS",
+      "cost": 1500,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05b10494f4c737d0a344d"
+      }
+    },
+    {
+      "name": "BANDEJA TELGOPOR 20X2",
+      "cost": 90,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05c5c494f4c737d0a3466"
+      }
+    },
+    {
+      "name": "BANDEJA TELGOPOR 24X2",
+      "cost": 105,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05c69494f4c737d0a3480"
+      }
+    },
+    {
+      "name": "BANDEJA TELGOPOR 30X2",
+      "cost": 100,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05c80494f4c737d0a349b"
+      }
+    },
+    {
+      "name": "BASE 10 CM",
+      "cost": 30,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05c9f494f4c737d0a34d1"
+      }
+    },
+    {
+      "name": "BASE 12 CM",
+      "cost": 85,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05cac494f4c737d0a34ee"
+      }
+    },
+    {
+      "name": "BASE 16 CM",
+      "cost": 25,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05cbb494f4c737d0a350c"
+      }
+    },
+    {
+      "name": "BASE 12X12",
+      "cost": 32,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05cc6494f4c737d0a352b"
+      }
+    },
+    {
+      "name": "BASE 16X16",
+      "cost": 63,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05ccf494f4c737d0a354b"
+      }
+    },
+    {
+      "name": "BASE 20X20",
+      "cost": 110,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05cd8494f4c737d0a356c"
+      }
+    },
+    {
+      "name": "BAILYS",
+      "cost": 7000,
+      "unit": "ml",
+      "amount": 750,
+      "_id": {
+        "$oid": "65a05ce8494f4c737d0a358e"
+      }
+    },
+    {
+      "name": "BICARBONATO DE SODIO",
+      "cost": 72,
+      "unit": "GR",
+      "amount": 50,
+      "_id": {
+        "$oid": "65a05cf6494f4c737d0a35b1"
+      }
+    },
+    {
+      "name": "BLONDA 13 CM",
+      "cost": 25,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05d1d494f4c737d0a35f7"
+      }
+    },
+    {
+      "name": "BOCONCHINO",
+      "cost": 440,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a05d32494f4c737d0a361c"
+      }
+    },
+    {
+      "name": "BON O BON",
+      "cost": 580,
+      "unit": "GR",
+      "amount": 290,
+      "_id": {
+        "$oid": "65a05d40494f4c737d0a3642"
+      }
+    },
+    {
+      "name": "BROCHETTE 30 CM",
+      "cost": 5,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05d53494f4c737d0a3669"
+      }
+    },
+    {
+      "name": "BROCHETTE 15 CM",
+      "cost": 3,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05d5d494f4c737d0a3691"
+      }
+    },
+    {
+      "name": "BROCHETTE 20 CM",
+      "cost": 4,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05d69494f4c737d0a36ba"
+      }
+    },
+    {
+      "name": "BROCHETTE 25 CM",
+      "cost": 4,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05d77494f4c737d0a36e4"
+      }
+    },
+    {
+      "name": "CACAO POLVO",
+      "cost": 1500,
+      "unit": "GR",
+      "amount": 180,
+      "_id": {
+        "$oid": "65a05d94494f4c737d0a370f"
+      }
+    },
+    {
+      "name": "CAFE",
+      "cost": 2550,
+      "unit": "GR",
+      "amount": 170,
+      "_id": {
+        "$oid": "65a05da7494f4c737d0a373b"
+      }
+    },
+    {
+      "name": "CALDOS",
+      "cost": 200,
+      "unit": "UNIDAD",
+      "amount": 6,
+      "_id": {
+        "$oid": "65a05db9494f4c737d0a3768"
+      }
+    },
+    {
+      "name": "CANELA",
+      "cost": 500,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a05dc5494f4c737d0a3796"
+      }
+    },
+    {
+      "name": "CASANCREM",
+      "cost": 2000,
+      "unit": "GR",
+      "amount": 480,
+      "_id": {
+        "$oid": "65a05dce494f4c737d0a37c5"
+      }
+    },
+    {
+      "name": "CEBOLLA MORADA",
+      "cost": 300,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05e17494f4c737d0a37f5"
+      }
+    },
+    {
+      "name": "CEREZA EN ALMIBAR",
+      "cost": 550,
+      "unit": "GR",
+      "amount": 150,
+      "_id": {
+        "$oid": "65a05e23494f4c737d0a3826"
+      }
+    },
+    {
+      "name": "CHAMPIGNON",
+      "cost": 900,
+      "unit": "UNIDAD",
+      "amount": 15,
+      "_id": {
+        "$oid": "65a05e33494f4c737d0a3858"
+      }
+    },
+    {
+      "name": "CHERRY",
+      "cost": 1600,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a05e44494f4c737d0a388b"
+      }
+    },
+    {
+      "name": "CHOCLO",
+      "cost": 250,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a05e64494f4c737d0a38bf"
+      }
+    },
+    {
+      "name": "CHOCOLINAS",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 150,
+      "_id": {
+        "$oid": "65a05e76494f4c737d0a38f4"
+      }
+    },
+    {
+      "name": "CIRUELAS",
+      "cost": 180,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a05e81494f4c737d0a392a"
+      }
+    },
+    {
+      "name": "CLAVITO DE OLOR",
+      "cost": 850,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a05e8b494f4c737d0a3961"
+      }
+    },
+    {
+      "name": "CMC",
+      "cost": 490,
+      "unit": "GR",
+      "amount": 50,
+      "_id": {
+        "$oid": "65a05e97494f4c737d0a3999"
+      }
+    },
+    {
+      "name": "COCO",
+      "cost": 460,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a05ea5494f4c737d0a39d2"
+      }
+    },
+    {
+      "name": "COLORANTE PASTA",
+      "cost": 610,
+      "unit": "GR",
+      "amount": 15,
+      "_id": {
+        "$oid": "65a05eae494f4c737d0a3a0c"
+      }
+    },
+    {
+      "name": "COLORANTE POLVO DORADO",
+      "cost": 2050,
+      "unit": "GR",
+      "amount": 15,
+      "_id": {
+        "$oid": "65a05eb7494f4c737d0a3a47"
+      }
+    },
+    {
+      "name": "CREMA LIQUIDA",
+      "cost": 950,
+      "unit": "GR",
+      "amount": 350,
+      "_id": {
+        "$oid": "65a05ec7494f4c737d0a3a83"
+      }
+    },
+    {
+      "name": "CREMA POLVO",
+      "cost": 680,
+      "unit": "GR",
+      "amount": 250,
+      "_id": {
+        "$oid": "65a06006494f4c737d0a3afb"
+      }
+    },
+    {
+      "name": "CREMA RICH CHOCOLATE",
+      "cost": 1775,
+      "unit": "GR",
+      "amount": 450,
+      "_id": {
+        "$oid": "65a06011494f4c737d0a3b39"
+      }
+    },
+    {
+      "name": "CREMA RICH VAINILLA",
+      "cost": 2850,
+      "unit": "GR",
+      "amount": 900,
+      "_id": {
+        "$oid": "65a0601e494f4c737d0a3b78"
+      }
+    },
+    {
+      "name": "CREMON",
+      "cost": 2900,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a0602e494f4c737d0a3bb8"
+      }
+    },
+    {
+      "name": "CUCHARAS SHOTS",
+      "cost": 20,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06046494f4c737d0a3bf9"
+      }
+    },
+    {
+      "name": "CUCURUCHITOS",
+      "cost": 20,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a0604e494f4c737d0a3c3b"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 10 CM",
+      "cost": 50,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06054494f4c737d0a3c7e"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 12 CM",
+      "cost": 160,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a0605e494f4c737d0a3cc2"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 18 CM",
+      "cost": 250,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06064494f4c737d0a3d07"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 20 CM",
+      "cost": 320,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a0606c494f4c737d0a3d4d"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 22 CM",
+      "cost": 380,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06079494f4c737d0a3d94"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 24 CM",
+      "cost": 450,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06081494f4c737d0a3ddc"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 26 CM",
+      "cost": 520,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a0608a494f4c737d0a3e25"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 28 CM",
+      "cost": 560,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06091494f4c737d0a3e6f"
+      }
+    },
+    {
+      "name": "DISCO FIBROFACIL 20X20",
+      "cost": 270,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a060ad494f4c737d0a3eba"
+      }
+    },
+    {
+      "name": "DISCO FiBRIFACIL 30X30",
+      "cost": 620,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a060ba494f4c737d0a3f06"
+      }
+    },
+    {
+      "name": "DULCE DE LECHE LIGHT",
+      "cost": 2700,
+      "unit": "GR",
+      "amount": 400,
+      "_id": {
+        "$oid": "65a060c7494f4c737d0a3f53"
+      }
+    },
+    {
+      "name": "DULCE DE LECHE",
+      "cost": 1700,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a060d4494f4c737d0a3fa1"
+      }
+    },
+    {
+      "name": "DURAZNOS",
+      "cost": 900,
+      "unit": "UNIDADES",
+      "amount": 6,
+      "_id": {
+        "$oid": "65a060eb494f4c737d0a3ff0"
+      }
+    },
+    {
+      "name": "EDULCORANTE",
+      "cost": 980,
+      "unit": "ml",
+      "amount": 250,
+      "_id": {
+        "$oid": "65a060f7494f4c737d0a4040"
+      }
+    },
+    {
+      "name": "ESENCIA",
+      "cost": 1320,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a06108494f4c737d0a4091"
+      }
+    },
+    {
+      "name": "ESPECIAS DULCES",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 50,
+      "_id": {
+        "$oid": "65a06115494f4c737d0a40e3"
+      }
+    },
+    {
+      "name": "FRITOLIN",
+      "cost": 800,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a06126494f4c737d0a4136"
+      }
+    },
+    {
+      "name": "FRUTILLAS",
+      "cost": 2000,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a0613e494f4c737d0a418a"
+      }
+    },
+    {
+      "name": "FRUTOS ROJOS",
+      "cost": 2000,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a0625d494f4c737d0a41df"
+      }
+    },
+    {
+      "name": "GEL DE BRILLO",
+      "cost": 150,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a0635a494f4c737d0a4689"
+      }
+    },
+    {
+      "name": "GELATINA",
+      "cost": 540,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a06365494f4c737d0a46e0"
+      }
+    },
+    {
+      "name": "GLUCOSA",
+      "cost": 1100,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a06370494f4c737d0a4738"
+      }
+    },
+    {
+      "name": "GOMA DE XANTANA",
+      "cost": 1000,
+      "unit": "GR",
+      "amount": 50,
+      "_id": {
+        "$oid": "65a0637d494f4c737d0a4791"
+      }
+    },
+    {
+      "name": "GOMA EVA",
+      "cost": 350,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a0638a494f4c737d0a47eb"
+      }
+    },
+    {
+      "name": "GRANAS MULTICOLOR",
+      "cost": 100,
+      "unit": "GR",
+      "amount": 50,
+      "_id": {
+        "$oid": "65a06397494f4c737d0a4846"
+      }
+    },
+    {
+      "name": "GRASA",
+      "cost": 360,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a063a2494f4c737d0a48a2"
+      }
+    },
+    {
+      "name": "GUINDAS",
+      "cost": 100,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a063ac494f4c737d0a48ff"
+      }
+    },
+    {
+      "name": "HARINA 000",
+      "cost": 220,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bae3143c1598193cde9f"
+      }
+    },
+    {
+      "name": "HARINA",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2baff143c1598193cdf5a"
+      }
+    },
+    {
+      "name": "HARINA DE ALMENDRAS COMUN",
+      "cost": 900,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bb10143c1598193cdfba"
+      }
+    },
+    {
+      "name": "HARINA DE ALMENDRAS MACARONS",
+      "cost": 1500,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bb23143c1598193ce01b"
+      }
+    },
+    {
+      "name": "HARINA DE COCO",
+      "cost": 650,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bb33143c1598193ce07d"
+      }
+    },
+    {
+      "name": "HARINA DE LINO",
+      "cost": 300,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bb3f143c1598193ce0e0"
+      }
+    },
+    {
+      "name": "HUEVOS",
+      "cost": 85,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bb4e143c1598193ce144"
+      }
+    },
+    {
+      "name": "JAMON",
+      "cost": 770,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bb5e143c1598193ce1a9"
+      }
+    },
+    {
+      "name": "KIWI",
+      "cost": 2000,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bb6b143c1598193ce20f"
+      }
+    },
+    {
+      "name": "LECHE",
+      "cost": 350,
+      "unit": "ml",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bb7d143c1598193ce276"
+      }
+    },
+    {
+      "name": "LECHE CONDENSADA",
+      "cost": 900,
+      "unit": "GR",
+      "amount": 395,
+      "_id": {
+        "$oid": "65a2bb8c143c1598193ce2de"
+      }
+    },
+    {
+      "name": "LEDEVITE",
+      "cost": 1900,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bb9a143c1598193ce347"
+      }
+    },
+    {
+      "name": "LEVADURA",
+      "cost": 100,
+      "unit": "GR",
+      "amount": 50,
+      "_id": {
+        "$oid": "65a2bba7143c1598193ce3b1"
+      }
+    },
+    {
+      "name": "LICOR DE CAFE",
+      "cost": 400,
+      "unit": "ml",
+      "amount": 200,
+      "_id": {
+        "$oid": "65a2bbb7143c1598193ce41c"
+      }
+    },
+    {
+      "name": "LIMON",
+      "cost": 500,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bbcf143c1598193ce488"
+      }
+    },
+    {
+      "name": "LOMO",
+      "cost": 710,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bbda143c1598193ce4f5"
+      }
+    },
+    {
+      "name": "MACARONS POLVO",
+      "cost": 700,
+      "unit": "GR",
+      "amount": 250,
+      "_id": {
+        "$oid": "65a2bbe4143c1598193ce563"
+      }
+    },
+    {
+      "name": "MAIZENA",
+      "cost": 1100,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bbed143c1598193ce5d2"
+      }
+    },
+    {
+      "name": "MALTA",
+      "cost": 1230,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bbf7143c1598193ce642"
+      }
+    },
+    {
+      "name": "MALVAVISCOS",
+      "cost": 80,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bc03143c1598193ce6b3"
+      }
+    },
+    {
+      "name": "MANGA NRO 0",
+      "cost": 10,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bc0e143c1598193ce725"
+      }
+    },
+    {
+      "name": "MANGA NRO 1",
+      "cost": 12,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bc17143c1598193ce798"
+      }
+    },
+    {
+      "name": "MANGA NRO 2",
+      "cost": 16,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bc1f143c1598193ce80c"
+      }
+    },
+    {
+      "name": "MANTECA",
+      "cost": 770,
+      "unit": "GR",
+      "amount": 200,
+      "_id": {
+        "$oid": "65a2bc2e143c1598193ce881"
+      }
+    },
+    {
+      "name": "MANZANA VERDE",
+      "cost": 1000,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bc3d143c1598193ce8f7"
+      }
+    },
+    {
+      "name": "MARACUYA RELLENO",
+      "cost": 1750,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a2bc4a143c1598193ce96e"
+      }
+    },
+    {
+      "name": "MARGARINA",
+      "cost": 170,
+      "unit": "GR",
+      "amount": 200,
+      "_id": {
+        "$oid": "65a2bc55143c1598193ce9e6"
+      }
+    },
+    {
+      "name": "MASCARPONE",
+      "cost": 680,
+      "unit": "GR",
+      "amount": 200,
+      "_id": {
+        "$oid": "65a2bc60143c1598193cea5f"
+      }
+    },
+    {
+      "name": "MAYONESA",
+      "cost": 100,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bc72143c1598193cead9"
+      }
+    },
+    {
+      "name": "MEDIALUNAS",
+      "cost": 300,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bc81143c1598193ceb54"
+      }
+    },
+    {
+      "name": "MEMBRILLO",
+      "cost": 1600,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bc91143c1598193cebd0"
+      }
+    },
+    {
+      "name": "MERENGUE EN POLVO",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 250,
+      "_id": {
+        "$oid": "65a2bca9143c1598193cec4d"
+      }
+    },
+    {
+      "name": "MERMELADA",
+      "cost": 1500,
+      "unit": "GR",
+      "amount": 454,
+      "_id": {
+        "$oid": "65a2bcb5143c1598193ceccb"
+      }
+    },
+    {
+      "name": "MIEL",
+      "cost": 1122,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a2bcbf143c1598193ced4a"
+      }
+    },
+    {
+      "name": "MIX FRUTOS SECOS",
+      "cost": 1050,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bcc6143c1598193cedca"
+      }
+    },
+    {
+      "name": "NALGA",
+      "cost": 1600,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bcd0143c1598193cee4b"
+      }
+    },
+    {
+      "name": "NARANJAS",
+      "cost": 600,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bcd9143c1598193ceecd"
+      }
+    },
+    {
+      "name": "NUECES",
+      "cost": 1000,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bce5143c1598193cef50"
+      }
+    },
+    {
+      "name": "NUTELLA",
+      "cost": 4700,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bcee143c1598193cefd4"
+      }
+    },
+    {
+      "name": "OBLEAS",
+      "cost": 300,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bcf7143c1598193cf059"
+      }
+    },
+    {
+      "name": "OREOS",
+      "cost": 33,
+      "unit": "UNIDADES",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bd20143c1598193cf0df"
+      }
+    },
+    {
+      "name": "OPORTO",
+      "cost": 2500,
+      "unit": "ml",
+      "amount": 750,
+      "_id": {
+        "$oid": "65a2bd2d143c1598193cf166"
+      }
+    },
+    {
+      "name": "PAN DULCE 250 GR",
+      "cost": 30,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bd4c143c1598193cf274"
+      }
+    },
+    {
+      "name": "PASAS DE UVA NEGRAS",
+      "cost": 300,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bd61143c1598193cf2fd"
+      }
+    },
+    {
+      "name": "PASAS DE UVA RUBIAS",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bd6c143c1598193cf387"
+      }
+    },
+    {
+      "name": "PASTA DE GOMA",
+      "cost": 860,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a2bd77143c1598193cf412"
+      }
+    },
+    {
+      "name": "PASTA DE MANI",
+      "cost": 1000,
+      "unit": "GR",
+      "amount": 485,
+      "_id": {
+        "$oid": "65a2bd83143c1598193cf49e"
+      }
+    },
+    {
+      "name": "PASTRON",
+      "cost": 340,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bd94143c1598193cf52b"
+      }
+    },
+    {
+      "name": "PEPINILLOS",
+      "cost": 190,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bd9f143c1598193cf5b9"
+      }
+    },
+    {
+      "name": "PIROTIN NRO 10",
+      "cost": 15,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bdb0143c1598193cf648"
+      }
+    },
+    {
+      "name": "PIROTIN NRO 9",
+      "cost": 10,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bdbb143c1598193cf6d8"
+      }
+    },
+    {
+      "name": "PIROTIN NRO 8",
+      "cost": 10,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bdc2143c1598193cf769"
+      }
+    },
+    {
+      "name": "PIZZA",
+      "cost": 450,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bdd9143c1598193cf7fb"
+      }
+    },
+    {
+      "name": "POLIFAN",
+      "cost": 90,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bdee143c1598193cf88e"
+      }
+    },
+    {
+      "name": "POLLO",
+      "cost": 2700,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2be0d143c1598193cf922"
+      }
+    },
+    {
+      "name": "POLVO DE HORNEAR",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bf70143c1598193cfb72"
+      }
+    },
+    {
+      "name": "PUERRO",
+      "cost": 1000,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bf79143c1598193cfc08"
+      }
+    },
+    {
+      "name": "QUESO MAR DEL PLATA",
+      "cost": 350,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bf86143c1598193cfc9f"
+      }
+    },
+    {
+      "name": "QUESO RALLADO",
+      "cost": 300,
+      "unit": "GR",
+      "amount": 35,
+      "_id": {
+        "$oid": "65a2bf91143c1598193cfd37"
+      }
+    },
+    {
+      "name": "QUESO FETA",
+      "cost": 400,
+      "unit": "GR",
+      "amount": 100,
+      "_id": {
+        "$oid": "65a2bf9f143c1598193cfdd0"
+      }
+    },
+    {
+      "name": "REMOLACHA",
+      "cost": 500,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bfab143c1598193cfe6a"
+      }
+    },
+    {
+      "name": "RICOTA",
+      "cost": 1800,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bfb6143c1598193cff05"
+      }
+    },
+    {
+      "name": "ROCLETS",
+      "cost": 950,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bfc0143c1598193cffa1"
+      }
+    },
+    {
+      "name": "RON",
+      "cost": 1500,
+      "unit": "ml",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bfcf143c1598193d003e"
+      }
+    },
+    {
+      "name": "SAL",
+      "cost": 250,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a2bfdc143c1598193d00dc"
+      }
+    },
+    {
+      "name": "SALMON",
+      "cost": 6000,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2bfe9143c1598193d017b"
+      }
+    },
+    {
+      "name": "SHOTS",
+      "cost": 53,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2bffa143c1598193d021b"
+      }
+    },
+    {
+      "name": "SORBETES",
+      "cost": 300,
+      "unit": "UNIDAD",
+      "amount": 25,
+      "_id": {
+        "$oid": "65a2c006143c1598193d02bc"
+      }
+    },
+    {
+      "name": "TOMATE LATA",
+      "cost": 350,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2c011143c1598193d035e"
+      }
+    },
+    {
+      "name": "TOMATE FRUTA",
+      "cost": 800,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2c01f143c1598193d0401"
+      }
+    },
+    {
+      "name": "TORTA FALSA 15X10",
+      "cost": 135,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2c02e143c1598193d04a5"
+      }
+    },
+    {
+      "name": "TORTA FALSA 20X10",
+      "cost": 280,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2c037143c1598193d054a"
+      }
+    },
+    {
+      "name": "TORTA FALSA 10X10",
+      "cost": 65,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2c045143c1598193d05f0"
+      }
+    },
+    {
+      "name": "VAINILLAS",
+      "cost": 350,
+      "unit": "GR",
+      "amount": 160,
+      "_id": {
+        "$oid": "65a2c05f143c1598193d0697"
+      }
+    },
+    {
+      "name": "VEGETALINA",
+      "cost": 890,
+      "unit": "GR",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a2c158143c1598193d073f"
+      }
+    },
+    {
+      "name": "VELAS",
+      "cost": 11,
+      "unit": "UNIDAD",
+      "amount": 1,
+      "_id": {
+        "$oid": "65a2c163143c1598193d07e8"
+      }
+    },
+    {
+      "name": "VERDEO",
+      "cost": 500,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2c170143c1598193d0892"
+      }
+    },
+    {
+      "name": "VINAGRE",
+      "cost": 300,
+      "unit": "ml",
+      "amount": 500,
+      "_id": {
+        "$oid": "65a2c17a143c1598193d093d"
+      }
+    },
+    {
+      "name": "YOGURT NATURAL",
+      "cost": 500,
+      "unit": "GR",
+      "amount": 210,
+      "_id": {
+        "$oid": "65a2c187143c1598193d09e9"
+      }
+    },
+    {
+      "name": "ZANAHORIA",
+      "cost": 300,
+      "unit": "GR",
+      "amount": 1000,
+      "_id": {
+        "$oid": "65a2c198143c1598193d0a96"
+      }
+    }
+  ],
+  "producto": [
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9509"
+      },
+      "name": "ALF MAICENA",
+      "margen": 70,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 26,
+      "ingredientes": []
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d950a"
+      },
+      "name": "POSTRE 3 LECHES",
+      "margen": 60,
+      "packaging": 210,
+      "aggregate": 10,
+      "amountRecipe": 11
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d950b"
+      },
+      "name": "ORANGE CURD",
+      "margen": 60,
+      "packaging": 100,
+      "aggregate": 10,
+      "amountRecipe": 16
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d950c"
+      },
+      "name": "nutella",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d950d"
+      },
+      "name": "POSTRE LEMON",
+      "margen": 80,
+      "packaging": 470,
+      "aggregate": 10,
+      "amountRecipe": 8
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d950e"
+      },
+      "name": "POSTRE MOUSSE CHOCO Y LEMON CUR",
+      "margen": 80,
+      "packaging": 470,
+      "aggregate": 10,
+      "amountRecipe": 8
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d950f"
+      },
+      "name": "ENSALADA DE FRUTA",
+      "margen": 50,
+      "packaging": 200,
+      "aggregate": 10,
+      "amountRecipe": 4
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9510"
+      },
+      "name": "SHOT 3 LECHES",
+      "margen": 50,
+      "packaging": 70,
+      "aggregate": 10,
+      "amountRecipe": 20
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9511"
+      },
+      "name": "CHOCOLATE BARILOCHE",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9512"
+      },
+      "name": "MINI TARTA TRI",
+      "margen": 60,
+      "packaging": 450,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9513"
+      },
+      "name": "EMP POLLO",
+      "margen": 70,
+      "packaging": 10,
+      "aggregate": 10,
+      "amountRecipe": 122
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9514"
+      },
+      "name": "CREMONITAS",
+      "margen": 100,
+      "packaging": 45,
+      "aggregate": 10,
+      "amountRecipe": 8
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9515"
+      },
+      "name": "EMP CARNE",
+      "margen": 70,
+      "packaging": 10,
+      "aggregate": 10,
+      "amountRecipe": 140
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9516"
+      },
+      "name": "EMP JYQ",
+      "margen": 70,
+      "packaging": 15,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9517"
+      },
+      "name": "PIZZETAS",
+      "margen": 70,
+      "packaging": 10,
+      "aggregate": 10,
+      "amountRecipe": 35
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9518"
+      },
+      "name": "BROCHETTE POLLO",
+      "margen": 70,
+      "packaging": 20,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9519"
+      },
+      "name": "PINCHO CAPRESE",
+      "margen": 40,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d951a"
+      },
+      "name": "DEVILS CAKE",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d951b"
+      },
+      "name": "OPERA",
+      "margen": 60,
+      "packaging": 500,
+      "aggregate": 10,
+      "amountRecipe": 5
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d951c"
+      },
+      "name": "BALCARCE",
+      "margen": 60,
+      "packaging": 65,
+      "aggregate": 10,
+      "amountRecipe": 24
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d951d"
+      },
+      "name": "CARROT CAKE",
+      "margen": 60,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d951e"
+      },
+      "name": "MUFFINS DE COCO",
+      "margen": 60,
+      "packaging": 50,
+      "aggregate": 10,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d951f"
+      },
+      "name": "MUFFINS LINO Y COCO",
+      "margen": 60,
+      "packaging": 50,
+      "aggregate": 10,
+      "amountRecipe": 10
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9520"
+      },
+      "name": "BAKLAVA",
+      "margen": 70,
+      "packaging": 50,
+      "aggregate": 10,
+      "amountRecipe": 12
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9521"
+      },
+      "name": "MOUSSE DE SALMON",
+      "margen": 40,
+      "packaging": 50,
+      "aggregate": 20,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9522"
+      },
+      "name": "PLETZALEJ",
+      "margen": 60,
+      "packaging": 10,
+      "aggregate": 10,
+      "amountRecipe": 17
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9523"
+      },
+      "name": "MOUSSE DE ALBAHACA",
+      "margen": 40,
+      "packaging": 50,
+      "aggregate": 20,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9524"
+      },
+      "name": "CRACKERS",
+      "margen": 40,
+      "packaging": 15,
+      "aggregate": 20,
+      "amountRecipe": 2
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9525"
+      },
+      "name": "BOMBAS",
+      "margen": 60,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 30
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9526"
+      },
+      "name": "TORTA FRESCA DE CREMA",
+      "margen": 60,
+      "packaging": 1400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9527"
+      },
+      "name": "PARIS BREST",
+      "margen": 60,
+      "packaging": 500,
+      "aggregate": 20,
+      "amountRecipe": 12
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9528"
+      },
+      "name": "ECLEARS",
+      "margen": 70,
+      "packaging": 500,
+      "aggregate": 20,
+      "amountRecipe": 9
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9529"
+      },
+      "name": "STRUDEL",
+      "margen": 100,
+      "packaging": 100,
+      "aggregate": 10,
+      "amountRecipe": 11
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d952a"
+      },
+      "name": "BOCADO BROWNIE",
+      "margen": 60,
+      "packaging": 50,
+      "aggregate": 10,
+      "amountRecipe": 32
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d952b"
+      },
+      "name": "MINI BROWNIE 9 CM DULCE Y MEREN",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 20,
+      "amountRecipe": 12
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d952c"
+      },
+      "name": "CUADRADO BROWNIE 7X7",
+      "margen": 60,
+      "packaging": 50,
+      "aggregate": 20,
+      "amountRecipe": 20
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d952d"
+      },
+      "name": "SHOT MOUSSE DE CHOCOLATE",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d952e"
+      },
+      "name": "SHOT MOUSSE DE DULCE DE LECHE",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d952f"
+      },
+      "name": "MEDIALUNAS JAMON Y QUESO",
+      "margen": 40,
+      "packaging": 50,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9530"
+      },
+      "name": "SHOT CHEESCAKE",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 15
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9531"
+      },
+      "name": "SHOT BORRACHITO",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9532"
+      },
+      "name": "SHOT OREO",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9533"
+      },
+      "name": "SHOT TIRAMISU",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 9
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9534"
+      },
+      "name": "POSTRE TIRAMISU",
+      "margen": 60,
+      "packaging": 200,
+      "aggregate": 10,
+      "amountRecipe": 16
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9535"
+      },
+      "name": "MERENGUE",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9536"
+      },
+      "name": "OREOS BAÑADAS",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9537"
+      },
+      "name": "POPCAKES",
+      "margen": 60,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 23
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9538"
+      },
+      "name": "SHOT MOUSSE LIMON",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 10
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9539"
+      },
+      "name": "SHOT CHOCOTORTA",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d953a"
+      },
+      "name": "CHOCOTORTA BAÑADA",
+      "margen": 60,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d953b"
+      },
+      "name": "MINI CHOCOTORTA",
+      "margen": 45,
+      "packaging": 700,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d953c"
+      },
+      "name": "COOKIES HARINA DE ALMENDRAS",
+      "margen": 40,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 14
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d953d"
+      },
+      "name": "SAVARIN",
+      "margen": 80,
+      "packaging": 700,
+      "aggregate": 10,
+      "amountRecipe": 3
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d953e"
+      },
+      "name": "ALF NUEZ",
+      "margen": 60,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 16
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d953f"
+      },
+      "name": "ALF CHOCOLATE",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 29
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9540"
+      },
+      "name": "ALF SABLE",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 23
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9541"
+      },
+      "name": "CRUMBLE",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9542"
+      },
+      "name": "RELLENO TARTA MANZANA",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9543"
+      },
+      "name": "LUNETTES",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 14
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9544"
+      },
+      "name": "CUCURUCHITOS",
+      "margen": 60,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9545"
+      },
+      "name": "DONUTS",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 29
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9546"
+      },
+      "name": "MACARONS",
+      "margen": 80,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 50
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9547"
+      },
+      "name": "COOKIES",
+      "margen": 100,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 17
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9548"
+      },
+      "name": "NUMBER CAKE",
+      "margen": 60,
+      "packaging": 600,
+      "aggregate": 10,
+      "amountRecipe": 2
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9549"
+      },
+      "name": "TORTA GALESA",
+      "margen": 60,
+      "packaging": 450,
+      "aggregate": 10,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d954a"
+      },
+      "name": "CONITOS",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 3
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d954b"
+      },
+      "name": "COOKIES NUTELLA",
+      "margen": 85,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 12
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d954c"
+      },
+      "name": "BOCADOS VAINILLA",
+      "margen": 60,
+      "packaging": 600,
+      "aggregate": 10,
+      "amountRecipe": 9
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d954d"
+      },
+      "name": "BOCADOS CHOCOLATE",
+      "margen": 60,
+      "packaging": 600,
+      "aggregate": 10,
+      "amountRecipe": 9
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d954e"
+      },
+      "name": "MAGIC NUTELLA",
+      "margen": 60,
+      "packaging": 1300,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d954f"
+      },
+      "name": "MUFFINS CHOCO",
+      "margen": 110,
+      "packaging": 60,
+      "aggregate": 10,
+      "amountRecipe": 14
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9550"
+      },
+      "name": "RED VELVET",
+      "margen": 70,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9551"
+      },
+      "name": "SCONS DE QUESO",
+      "margen": 70,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 11
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9552"
+      },
+      "name": "MUFFINS VAINILLA",
+      "margen": 60,
+      "packaging": 60,
+      "aggregate": 10,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9553"
+      },
+      "name": "BROWNIE",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 30,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9554"
+      },
+      "name": "TORTA BROWNIE",
+      "margen": 75,
+      "packaging": 1200,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9555"
+      },
+      "name": "CHEESCAKE",
+      "margen": 60,
+      "packaging": 1210,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9556"
+      },
+      "name": "ROGEL 1 H",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 20,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9557"
+      },
+      "name": "ROGELITOS",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 20,
+      "amountRecipe": 14
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9558"
+      },
+      "name": "COOKIES AVENA Y PASAS",
+      "margen": 60,
+      "packaging": 25,
+      "aggregate": 20,
+      "amountRecipe": 13
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9559"
+      },
+      "name": "MINI ROGEL 10 CM",
+      "margen": 60,
+      "packaging": 500,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d955a"
+      },
+      "name": "LINZER",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d955b"
+      },
+      "name": "MINI ROGEL 7 CM",
+      "margen": 60,
+      "packaging": 350,
+      "aggregate": 10,
+      "amountRecipe": 2
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d955c"
+      },
+      "name": "VAINILLA MASA",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 20,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d955d"
+      },
+      "name": "MINI TARTA FRUTOS SECOS",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d955e"
+      },
+      "name": "FIGACITAS J Y Q",
+      "margen": 60,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 21
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d955f"
+      },
+      "name": "FIGACITAS LOMO",
+      "margen": 60,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 21
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9560"
+      },
+      "name": "FIGACITAS CAPRESE",
+      "margen": 60,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 21
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9561"
+      },
+      "name": "RELLENO FRUTOS SECOS ACARAMELAD",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 20,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9562"
+      },
+      "name": "TRUFAS CHOCO BLANCO",
+      "margen": 40,
+      "packaging": 35,
+      "aggregate": 10,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9563"
+      },
+      "name": "MINI TARTA MANZANA",
+      "margen": 60,
+      "packaging": 450,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9564"
+      },
+      "name": "TARTELETA PASTELERA",
+      "margen": 60,
+      "packaging": 50,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9565"
+      },
+      "name": "TARTELETA LEMON PIE",
+      "margen": 60,
+      "packaging": 50,
+      "aggregate": 20,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9566"
+      },
+      "name": "SHOT LEMON PIE",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 20,
+      "amountRecipe": 7
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9567"
+      },
+      "name": "SHOT M FRUTILLA",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 12
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9568"
+      },
+      "name": "SHOT MARACUYA",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 18
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9569"
+      },
+      "name": "SHOT BAILYS",
+      "margen": 50,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 13
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d956a"
+      },
+      "name": "MINI PASTAFROLA",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d956b"
+      },
+      "name": "MINI TARTA RICOTA",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d956c"
+      },
+      "name": "TARTA RICOTA GRANDE",
+      "margen": 60,
+      "packaging": 850,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d956d"
+      },
+      "name": "MINI TARTA DE COCO Y DULCE",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d956e"
+      },
+      "name": "RELLENO TARTA RICOTA",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d956f"
+      },
+      "name": "RELLENO TARTA COCO",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9570"
+      },
+      "name": "PASTELERA 1 HUEVO",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9571"
+      },
+      "name": "MINI TARTA LEMON PIE",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9572"
+      },
+      "name": "TARTA LEMON GRANDE",
+      "margen": 60,
+      "packaging": 850,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9573"
+      },
+      "name": "MINI TARTA FRUTILLAS",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9574"
+      },
+      "name": "TARTA FRUTILLAS GRANDE",
+      "margen": 70,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9575"
+      },
+      "name": "TARTA MANZANA GRANDE",
+      "margen": 60,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9576"
+      },
+      "name": "MINI TARTA COPITOS",
+      "margen": 60,
+      "packaging": 400,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9577"
+      },
+      "name": "BUDINCITOS DE LIMON",
+      "margen": 80,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 15
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9578"
+      },
+      "name": "BUDINCITOS VAINILLA",
+      "margen": 70,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 18
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9579"
+      },
+      "name": "bocaditos banana y avena",
+      "margen": 150,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 9
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d957a"
+      },
+      "name": "muffins avena, maz y canela",
+      "margen": 100,
+      "packaging": 40,
+      "aggregate": 10,
+      "amountRecipe": 16
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d957b"
+      },
+      "name": "COOKIES DE LIMON",
+      "margen": 60,
+      "packaging": 25,
+      "aggregate": 20,
+      "amountRecipe": 22
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d957c"
+      },
+      "name": "BUDINCITOS DE MANZANA",
+      "margen": 70,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 17
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d957d"
+      },
+      "name": "PIONONO DULCE DE LECHE",
+      "margen": 60,
+      "packaging": 30,
+      "aggregate": 10,
+      "amountRecipe": 12
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d957e"
+      },
+      "name": "BUDINCITOS MAGIC",
+      "margen": 70,
+      "packaging": 25,
+      "aggregate": 10,
+      "amountRecipe": 33
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d957f"
+      },
+      "name": "MASA TARTA SABLE",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9580"
+      },
+      "name": "PAN DULCE CHISPAS",
+      "margen": 90,
+      "packaging": 80,
+      "aggregate": 10,
+      "amountRecipe": 6
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9581"
+      },
+      "name": "MASA SUCRE",
+      "margen": 0,
+      "packaging": 0,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9582"
+      },
+      "name": "TORTA INDIVIDUAL",
+      "margen": 70,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9583"
+      },
+      "name": "TORTA BOMBA",
+      "margen": 60,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9584"
+      },
+      "name": "TORTA CHAJA",
+      "margen": 70,
+      "packaging": 450,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9585"
+      },
+      "name": "SACHER",
+      "margen": 60,
+      "packaging": 350,
+      "aggregate": 10,
+      "amountRecipe": 3
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9586"
+      },
+      "name": "CAKE 5 PORCIONES",
+      "margen": 70,
+      "packaging": 800,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9587"
+      },
+      "name": "CAKE CORAZON 20 CM",
+      "margen": 70,
+      "packaging": 2100,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9588"
+      },
+      "name": "CAKE 10 PORCIONES",
+      "margen": 90,
+      "packaging": 700,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d9589"
+      },
+      "name": "CAKE 20 PORCIONES",
+      "margen": 70,
+      "packaging": 1200,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d958a"
+      },
+      "name": "CAKE 15 PORCIONES",
+      "margen": 70,
+      "packaging": 1200,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d958b"
+      },
+      "name": "HUEVO CHOCOTORTA",
+      "margen": 60,
+      "packaging": 250,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d958c"
+      },
+      "name": "HUEVO CHEESCAKE",
+      "margen": 60,
+      "packaging": 250,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d958d"
+      },
+      "name": "HUEVO FULL CHOCO4",
+      "margen": 60,
+      "packaging": 250,
+      "aggregate": 10,
+      "amountRecipe": 1
+    },
+    {
+      "_id": {
+        "$oid": "6631ac0e4e6e9deb3b7d958e"
+      },
+      "name": "HUEVO OREO",
+      "margen": 60,
+      "packaging": 250,
+      "aggregate": 10,
+      "amountRecipe": 1
+    }
+  ],
+  "__v": 0
+}]
