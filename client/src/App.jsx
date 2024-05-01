@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { AuthProvider } from "./context/AuthContext";
-
 import { SistemaProvider } from "./context/SistemaContext";
 
 import "./App.css";
