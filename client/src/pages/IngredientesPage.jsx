@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useSistema } from "../context/SistemaContext";
 import Navbar from "../components/navbar/Index";
-import IngredientesRows from "../components/rows/ingredientesRows.jsx";
+import IngredientesRows from "../components/rows/IngredientesRows.jsx";
 import { useNavigate } from "react-router-dom";
 import VolverNavegacion from "../components/rows/VolverNavegacion.jsx";
 import SearchBar from "../components/buscador/SearchBar.jsx";

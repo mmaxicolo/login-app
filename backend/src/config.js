@@ -1,1 +1,1 @@
-export const TOKEN_SECRET = 'secret token je'
+export const TOKEN_SECRET = process.env.JWT_SECRET || 'FJFJFJ'

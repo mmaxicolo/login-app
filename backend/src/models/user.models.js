@@ -16,7 +16,6 @@ const ingrediente = new mongoose.Schema({
         type : Number,
     }
 });
-export const Ingrediente = mongoose.model('Ingrediente', ingrediente);
 
 const producto = new mongoose.Schema({
     name: {
@@ -40,7 +39,6 @@ const producto = new mongoose.Schema({
         amount: Number,
     }],
 });
-export const Producto = mongoose.model('Producto', producto);
 
 const userSchema = new mongoose.Schema({
     user: {
@@ -63,5 +61,8 @@ const userSchema = new mongoose.Schema({
     producto: [producto]
 })
 
+export const Ingrediente = mongoose.model('Ingrediente', ingrediente);
+
+export const Producto = mongoose.model('Producto', producto);
 
 export const User = mongoose.model('User', userSchema)
